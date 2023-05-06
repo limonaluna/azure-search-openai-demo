@@ -9,11 +9,11 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What are the vegetarian lunch options?",
-        value: "What are the vegetarian lunch options?"
+        text: "What are vegetarian lunch options?",
+        value: "What are vegetarian lunch options?"
     },
-    { text: "Which main dish has the least amount of carbs?", value: "Which main dish has the least amount of carbs?" },
-    { text: "What is the dessert on Friday?", value: "What is the dessert on Friday?" }
+    { text: "How did the most important KPIs score for 2022?", value: "How did the most important KPIs score for 2022?" },
+    { text: "What is the outlook for the next fiscal year?", value: "What is the outlook for the next fiscal year?" }
 ];
 
 interface Props {
